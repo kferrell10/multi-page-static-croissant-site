@@ -9,5 +9,10 @@ p {
 }
 
 .hero-image {
+  max-width: 1920px;
+  margin: 20px 0;
+}
+
+.gallery-image {
   margin: 20px auto;
 }
