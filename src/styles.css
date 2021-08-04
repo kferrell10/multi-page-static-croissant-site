@@ -19,7 +19,11 @@ h1 {
 }
 
 .gallery-image {
-  margin: 20px auto;
+  margin: 5px auto;
+}
+
+.caption {
+  text-align: center;
 }
 
 .navigation a {
