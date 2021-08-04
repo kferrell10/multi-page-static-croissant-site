@@ -9,6 +9,10 @@ p {
   text-align: center;
 }
 
+.intro {
+  font-size: 24px;
+}
+
 .hero-image {
   margin: 20px 0;
 }
@@ -25,7 +29,26 @@ p {
   border-radius: 0 0 5px 5px;
 }
 
-a:hover {
-  color: rgb(71, 66, 64);
-  border: white solid 1px;
+.navigation a:hover {
+  background-color: rgb(71, 66, 64);
+  color: white;
+  border: rgb(71, 66, 64) solid 1px;
+}
+
+.email-link a {
+  color: rgb(196, 85, 11);
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.email-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  p {
+    font-size: 14px;
+  }
 }
